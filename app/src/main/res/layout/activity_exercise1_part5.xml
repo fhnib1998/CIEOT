@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#bdf1ea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise1Part5">
+
+    <TextView
+        android:id="@+id/textviewQuest"
+        android:layout_width="342dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="48dp"
+        android:text="1. Ms. Bradshawd Mr. Tanner that she would be working for ------- office as an intern over the summer."
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="288dp"
+        android:layout_height="159dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="182dp">
+
+        <RadioButton
+            android:id="@+id/radiobuttonA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A.He"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radiobuttonB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B.His"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radiobuttonC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C.Him"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radiobuttonD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Himself"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:textColor="#18dfcb"
+        android:id="@+id/buttonCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/custom_start"
+        android:text="Kiểm Tra " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-73dp"
+        android:text="Fill to Blank"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewAnswer"
+        android:layout_width="276dp"
+        android:layout_height="88dp"
+        android:layout_alignStart="@+id/buttonCheck"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-84dp"
+        android:layout_marginBottom="85dp"
+        android:textColor="#ec4275"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imagebuttonOut"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonCheck"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="334dp"
+        android:layout_marginBottom="440dp"
+        android:background="@null"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+</RelativeLayout>
