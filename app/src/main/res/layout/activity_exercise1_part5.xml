@@ -5,6 +5,7 @@
     android:background="#bdf1ea"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
     tools:context=".Exercise1Part5">
 
     <TextView
@@ -13,10 +14,10 @@
         android:layout_height="117dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="72dp"
         android:text="1. Ms. Bradshawd Mr. Tanner that she would be working for ------- office as an intern over the summer."
-        android:textSize="18dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="36dp" />
@@ -27,8 +28,8 @@
         android:layout_height="159dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="75dp"
-        android:layout_marginBottom="182dp">
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="249dp">
 
         <RadioButton
             android:id="@+id/radiobuttonA"
@@ -36,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="A.He"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold" />
 
         <RadioButton
@@ -45,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="B.His"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold" />
 
         <RadioButton
@@ -54,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="C.Him"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold" />
 
         <RadioButton
@@ -63,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Himself"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold" />
     </RadioGroup>
 
@@ -84,34 +85,57 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="-73dp"
         android:text="Fill to Blank"
-        android:textSize="17dp"
+        android:textColor="#0cdfdf"
+        android:textSize="20dp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textviewAnswer"
-        android:layout_width="276dp"
-        android:layout_height="88dp"
-        android:layout_alignStart="@+id/buttonCheck"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-84dp"
-        android:layout_marginBottom="85dp"
-        android:textColor="#ec4275"
-        android:textSize="15dp"
-        android:textStyle="bold" />
 
     <ImageButton
         android:id="@+id/imagebuttonOut"
         android:layout_width="46dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/buttonCheck"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="334dp"
-        android:layout_marginBottom="440dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
         android:background="@null"
         app:srcCompat="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/textviewCountQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="1/20"
+        android:textColor="#e91ab2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="281dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginBottom="94dp">
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/textviewAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ec4275"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </ScrollView>
+
 
 </RelativeLayout>
