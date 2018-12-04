@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".Exercise1Part1">
+
 
     <ImageView
         android:id="@+id/imageviewQ"
@@ -92,26 +94,28 @@
         android:layout_marginBottom="40dp"
         android:background="@drawable/custom_start"
         android:text="Kiểm Tra "
-        android:textColor="#18dfcb"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textviewCountQ"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="51dp"
+        android:layout_height="22dp"
         android:layout_alignBaseline="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="184dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="1/10"
         android:textColor="#e91ab2"
         android:textSize="20dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageviewQ"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/imagebuttonOut"

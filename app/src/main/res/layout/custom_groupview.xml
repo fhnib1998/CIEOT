@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:background="#ec0779"
+        android:background="#ff007f"
         android:id="@+id/textviewPart"
         android:gravity="center"
         android:layout_width="match_parent"

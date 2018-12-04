@@ -37,7 +37,6 @@ public class ListPart extends AppCompatActivity {
         exPart1.add("Exercise 2");
         exPart1.add("Exercise 3");
         exPart1.add("Exercise 4");
-        exPart1.add("Exercise 5");
         //list Part 2
         List<String> exPart2 = new ArrayList<>();
         exPart2.add("Exercise 1");
@@ -59,14 +58,12 @@ public class ListPart extends AppCompatActivity {
         exPart5.add("Exercise 2");
         exPart5.add("Exercise 3");
         exPart5.add("Exercise 4");
-        exPart5.add("Exercise 5");
         //list Part 6
         List<String> exPart6 = new ArrayList<>();
         exPart6.add("Exercise 1");
         exPart6.add("Exercise 2");
         exPart6.add("Exercise 3");
         exPart6.add("Exercise 4");
-        exPart6.add("Exercise 5");
         //list Part 7
         List<String> exPart7 = new ArrayList<>();
         exPart7.add("Exercise 1");

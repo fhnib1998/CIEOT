@@ -116,6 +116,139 @@ public class Exercise1Part2 extends AppCompatActivity {
                                 "B.It's a great job",
                                 "C.Norrell Health Center");
                         break;
+        //Cau 4
+                    case 6:
+                        setupQ(R.raw.ex1_part2_04);
+                        break;
+                    case 7:
+                        setupA(rbC,"Who's that man speaking to Mr.Douglas?",
+                                "A.They haven't been waiting too long",
+                                "B.Usually at least twice  a week",
+                                "C.He's  reporter for the local newspaper");
+                        break;
+        //Cau 5
+                    case 8:
+                        setupQ(R.raw.ex1_part2_05);
+                        break;
+                    case 9:
+                        setupA(rbB,"Excuse me, where is conference room 11B?",
+                                "A.Thanks,I'll be there soon",
+                                "B.It's at the end of the hall",
+                                "That bookself has one");
+                        break;
+        //Cau 6
+                    case 10:
+                        setupQ(R.raw.ex1_part2_06);
+                        break;
+                    case 11:
+                        setupA(rbA,"Would you look over my research proposal before i submit it?",
+                                "A.I'd be happy to",
+                                "B.Try looking in the drawer",
+                                "C.You're welcome");
+                        break;
+        //Cau 7
+                    case 12:
+                        setupQ(R.raw.ex1_part2_07);
+                        break;
+                    case 13:
+                        setupA(rbC,"Isn't it supposed to rain this afternoon?",
+                                "A.Roger was supposed to",
+                                "B.It's a new umbrella",
+                                "C.That's what i heard ");
+                        break;
+        //Cau 8
+                    case 14:
+                        setupQ(R.raw.ex1_part2_08);
+                        break;
+                    case 15:
+                        setupA(rbA,"What time shold I meet you in the lobby?",
+                                "A.How about at noon?",
+                                "B.The side door",
+                                "C.That's plenty of time");
+                        break;
+        //Cau 9
+                    case 16:
+                        setupQ(R.raw.ex1_part2_09);
+                        break;
+                    case 17:
+                        setupA(rbA,"Have you been to that Italian restaurant on Kinny Road?",
+                                "A.Yes,I go there often",
+                                "B.I can't get there before six",
+                                "C.A very large menu");
+                        break;
+        //Cau 10
+                    case 18:
+                        setupQ(R.raw.ex1_part2_10);
+                        break;
+                    case 19:
+                        setupA(rbB,"Why are you traveling to Denver?",
+                                "A.Only for a few days",
+                                "B.To spend time with my relatives",
+                                "C.I'm planning to drive there");
+                        break;
+        //Cau 11
+                    case 20:
+                        setupQ(R.raw.ex1_part2_11);
+                        break;
+                    case 21:
+                        setupA(rbC,"The quarterly  report is going to be released tomorrow",
+                                "A.A.To sign a lease",
+                                "B.Not since last month",
+                                "C.I'll be interested to see it");
+                        break;
+        //Cau 12
+                    case 22:
+                        setupQ(R.raw.ex1_part2_12);
+                        break;
+                    case 23:
+                        setupA(rbC,"Did Lena deposit the checks at the bank?",
+                                "A.Remember to get a receipt",
+                                "B.There's one near the post office",
+                                "C.Yes,she did it on her way home");
+                        break;
+        //Cau 13
+                    case 24:
+                        setupQ(R.raw.ex1_part2_13);
+                        break;
+                    case 25:
+                        setupA(rbA,"How much paper should i buy?",
+                                "A.Two boxes should  be enough",
+                                "B.Your total comes to 25 dollars",
+                                "C.The comments were helpful");
+                        break;
+        //Cau 14
+                    case 26:
+                        setupQ(R.raw.ex1_part2_14);
+                        break;
+                    case 27:
+                        setupA(rbA,"Who'll be our sales director now that Ms.Wu's been  promoted",
+                                "A.Mr.Hudson will",
+                                "B.It's currently on sale",
+                                "C.Congratulations-that's great news!");
+                        break;
+        //Cau 15
+                    case 28:
+                        setupQ(R.raw.ex1_part2_15);
+                        break;
+                    case 29:
+                        setupA(rbA,"Can you play tennis this weekend, or are you too busy?",
+                                "A.I'd love to, but i don't have time",
+                                "B.I'm  pleased to be here",
+                                "C.The park has courts,though");
+                        btnCheck.setText("Kết Quả");
+                        break;
+                    //Tính điểm
+                    default:
+                        AlertDialog.Builder arletDialog = new AlertDialog.Builder(Exercise1Part2.this);
+                        arletDialog.setTitle("Kết Quả");
+                        arletDialog.setMessage("\n\tBạn đúng:"+countT+"/15");
+                        arletDialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                startActivity(new Intent(Exercise1Part2.this,ListPart.class));
+                            }
+                        });
+                        arletDialog.show();
                 }
             }
         });
@@ -138,8 +271,8 @@ public class Exercise1Part2 extends AppCompatActivity {
     private void setupQ(int raw){
         mediaPlayer.stop();
         countQ++;
-        txtcountQ.setText(countQ+"/10");
-        txtAnswer.setText("");
+        txtcountQ.setText(countQ+"/15");
+        txtAnswer.setText("Listen and Answer");
         rbA.setText("A.");
         rbB.setText("B.");
         rbC.setText("C.");

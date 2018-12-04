@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fadedf"
+    android:background="#ffffff"
     tools:context=".Exercise1Part6">
 
     <ScrollView
@@ -99,7 +99,7 @@ presentation on the new system.\nThis should facilitate decision-making during o
         android:layout_marginBottom="16dp"
         android:background="@drawable/custom_start"
         android:text="Kiểm Tra "
-        android:textColor="#18dfcb"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

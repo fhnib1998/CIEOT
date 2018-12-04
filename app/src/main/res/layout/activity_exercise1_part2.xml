@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".Exercise1Part2">
 
     <ImageButton
@@ -74,7 +75,7 @@
         android:layout_marginBottom="40dp"
         android:background="@drawable/custom_start"
         android:text="Kiểm Tra "
-        android:textColor="#18dfcb"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -128,8 +129,8 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="36dp"
         android:gravity="center"
-        android:text=""
-        android:textColor="#ec4275"
+        android:text="Listen and Answer"
+        android:textColor="#f12ca8"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"

@@ -155,6 +155,7 @@ public class Exercise1Part1 extends AppCompatActivity {
                                 "B.Labels have been attached to shelving units",
                                 "C.A man is opening the door of the cabinet",
                                 "D.some newspapers have been piled on the floor");
+                        break;
         //Câu 8
                     case 14:
                         setupQ(R.drawable.ex1_part1_8,R.raw.ex1_part1_8);
@@ -184,6 +185,7 @@ public class Exercise1Part1 extends AppCompatActivity {
                                 "B.Passengers are  waiting to board a train",
                                 "C.A high wall runs alongside the train tracks",
                                 "D.A train is about to go over a bridge");
+                        btnCheck.setText("Kết Quả");
                         break;
         //Tính điểm
                         default:
