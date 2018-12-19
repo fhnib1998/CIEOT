@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".Exercise1Part6">
+    tools:context=".Exercises.Exercise1Part6">
 
     <ScrollView
         android:layout_width="372dp"
@@ -13,19 +13,20 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/borderq">
 
         <TextView
-            android:id="@+id/textviewQuest"
+            android:id="@+id/textviewQuestion"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="From: Daniel Doyle\nTo: Lois Henares\nSubject: Our appointment\nDate: Wed, 20 Sept 2008\nLois,
 I’m sending my apologies for having to ---(1)--- our 10:00 appointment for this morning. I was on
 my way to your office but was suddenly called away to deal with an ---(2)--- problem at the factory.I have asked Ms. Blanchard to reschedule our meeting on Friday at 11:00 A.M. Our agenda, as agreed upon, will be the implementation of a new inventory system. I would appreciate it if you could send other members scheduled to attend the meeting a summary of the points that ---(3)--- in your
 presentation on the new system.\nThis should facilitate decision-making during our meeting.\nI hope you were not inconvenienced by the cancelation of our meeting this morning.\nAll the best,\nDaniel "
+            android:textColor="#f000"
             android:textSize="18dp"
-            android:textStyle="bold"
-            android:textColor="#f000"/>
+            android:textStyle="bold" />
     </ScrollView>
 
     <TextView
@@ -35,7 +36,7 @@ presentation on the new system.\nThis should facilitate decision-making during o
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Fill to Blank"
-        android:textColor="#03d1a8"
+        android:textColor="#15ccc9"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +50,7 @@ presentation on the new system.\nThis should facilitate decision-making during o
         android:layout_alignParentBottom="true"
         android:layout_marginStart="48dp"
         android:layout_marginBottom="84dp"
+        android:background="@drawable/border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -105,7 +107,7 @@ presentation on the new system.\nThis should facilitate decision-making during o
 
     <ImageButton
         android:id="@+id/imagebuttonOut"
-        android:layout_width="46dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/buttonCheck"
         android:layout_alignParentStart="true"
@@ -114,7 +116,7 @@ presentation on the new system.\nThis should facilitate decision-making during o
         android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_delete" />
+        app:srcCompat="@drawable/exitex" />
 
     <TextView
         android:id="@+id/textviewCountQ"

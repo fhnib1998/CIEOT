@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".Exercise1Part1">
+    tools:context=".Exercises.Exercise1Part1">
 
 
     <ImageView
@@ -42,8 +42,9 @@
         android:id="@+id/RadioGroup"
         android:layout_width="321dp"
         android:layout_height="223dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/border"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -119,7 +120,7 @@
 
     <ImageButton
         android:id="@+id/imagebuttonOut"
-        android:layout_width="46dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -128,5 +129,5 @@
         android:background="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_delete" />
+        app:srcCompat="@drawable/exitex" />
 </android.support.constraint.ConstraintLayout>

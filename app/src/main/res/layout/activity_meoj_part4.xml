@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".Meojs.MeojPart4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="3dp"
+        android:text="PART IV"
+        android:textColor="#f11d83"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/imagebuttonOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="360dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@null"
+        app:srcCompat="@drawable/exitex" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Mẹo #1: Đọc trước câu hỏi và Suy luận nội dung của bài nói từ câu hỏi\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Mẹo #2: Nghe và tô đáp án ngay lập tức\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Mẹo #3: Dựa vào câu hỏi để bắt từ\n"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

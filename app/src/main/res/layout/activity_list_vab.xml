@@ -4,22 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListPart"
-    android:id="@+id/drawerPart">
+    tools:context=".ListVab"
+    android:id="@+id/drawerVab">
 
     <ExpandableListView
-        android:id="@+id/expandableListview"
+        android:id="@+id/expandableListVab"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:childDivider="#ec337e"
-        android:divider="#2bfcff"
+        android:childDivider="#000000"
+        android:divider="#ffffff"
         android:dividerHeight="1dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </ExpandableListView>/>
+        app:layout_constraintTop_toTopOf="parent"></ExpandableListView>/>
 
     <android.support.design.widget.NavigationView
-        android:id="@+id/navigation_part"
+        android:id="@+id/navigation_vab"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="#ffffff"

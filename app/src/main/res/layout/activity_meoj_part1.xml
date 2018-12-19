@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".Meojs.MeojPart1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="3dp"
+        android:text="PART I"
+        android:textColor="#f11d83"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/imagebuttonOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="360dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@null"
+        app:srcCompat="@drawable/exitex" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Mẹo #1: Trước khi làm bài, hãy nhìn tổng quát cả hình và phán đoán những danh từ và động từ có liên quan,rồi thử đoán trước ngữ cảnh có thể xảy ra trong hình"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Khi nhìn vào một hình, bạn có thể thử đoán trước về:
+\n- Hoạt Động(ví dụ: Người đàn ông đang làm gì?)
+\n- Ngữ cảnh chung(ví dụ: Bữa ăn đã sẵn sàng)
+\n- Mối quan hệ giữa các vật trong hình(ví dụ: ở giữa, bên phải, góc trong,vv)
+\n=> Điều này sẽ giúp bạn biết được những cái sắp được đề cập đến trong bài nghe
+\nVí dụ: Bạn sẽ thấy:"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/meojpart1image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Sau đó bạn thử đoán:
+\n- Hoạt động: 3 người này đang nhìn nhau hoặc đang nói chuyện với nhau
+\n- Ngữ cảnh chung: Cảnh trong hình trông giống như họ đang ở văn phòng vì những người này đang mặc vest, có bàn ghế, giấy tờ,...
+\n- Mối quan hệ giữa các vật: Có 1 người phụ nữ đứng đằng sau cái bàn,Có một số tậ giấy ở trên bàn,..."
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Mẹo #2: Chú ý nghe động từ hoặc danh từ của từng phương án. Câu sai thường do sai động từ hoặc danh từ"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Cấu trúc câu của hầu hết các lựa chọn là:
+\n- Subject + Verb hoặc Subject + Verb + Object
+\nTrong đó, danh từ được dùng vị trí Subject và Object.Các lựa chọn sai sẽ là sai danh từ hoặc động từ hoặc cả hai.
+\n\n Những câu sai thường sẽ miêu tả những chi tiết không có trong hình và chúng liên quan đến sai động từ hay sai danh từ.Chính vì thế, bạn cần chú ý nghe động từ và danh từ của từng câu
+\n Ví dụ:\n Bạn sẽ thấy:"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/meojpart1image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Bạn sẽ nghe các đáp án sau:
+\n - A: They're leaving the room
+\n - B: They're turning on the machine
+\n - C: They're standing near the table
+\n - D: They're reading the newspaper
+\nBây giờ chúng ta sẽ cùng xem thử các đáp án sai đã sai về động từ và danh từ như thế nào nhé: \n- Với câu A, có THE ROOM  nhưng động từ LEAVING là sai, mọi người vẫn đứng trong phòng. \n- Với câu B thì có machine (máy móc) nhưng không ai đụng vô máy hết nên ý TURNING ON (bật máy) cũng sai\n- Với câu D thì sai cả động từ (reading) lẫn danh từ (newspaper). \n- Chỉ có câu C thì đúng cả về động từ lẫn danh từ “They’re standing near the table.Họ đang đứng gần cái bàn"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

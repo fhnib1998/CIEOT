@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_listpart"
+            android:title="Luyện Tập"
+            android:icon="@drawable/luyentap" />
+        <item android:id="@+id/nav_vocabulary"
+            android:title="Từ Vựng"
+            android:icon="@drawable/tuvung"></item>
+        <item android:id="@+id/nav_grammar"
+                android:title="Ngữ Pháp"
+                android:icon="@drawable/nav_grammar"></item>
+        <item android:id="@+id/nav_meoj"
+                android:title="Mẹo Thi Toeic"
+                android:icon="@drawable/meoj"></item>
+        <item android:id="@+id/nav_info"
+            android:title="Thông Tin"
+            android:icon="@drawable/info"></item>
+        </group>
+
+</menu>

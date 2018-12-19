@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/AppTheme.NoActionBar"
-    tools:context=".Exercise1Part5">
+    tools:context=".Exercises.Exercise1Part5">
 
     <TextView
-        android:id="@+id/textviewQuest"
+        android:id="@+id/textviewQuestion"
         android:layout_width="342dp"
         android:layout_height="117dp"
         android:layout_alignParentStart="true"
@@ -20,6 +20,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#000000"
+        android:background="@drawable/borderq"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="36dp" />
 
@@ -29,6 +30,7 @@
         android:layout_height="159dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:background="@drawable/border"
         android:layout_marginStart="63dp"
         android:layout_marginBottom="249dp">
 
@@ -90,21 +92,21 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="-73dp"
         android:text="Fill to Blank"
-        android:textColor="#0cdfdf"
+        android:textColor="#15ccc9"
         android:textSize="20dp"
         android:textStyle="bold" />
 
 
     <ImageButton
         android:id="@+id/imagebuttonOut"
-        android:layout_width="46dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:background="@null"
-        app:srcCompat="@android:drawable/ic_delete" />
+        app:srcCompat="@drawable/exitex" />
 
     <TextView
         android:id="@+id/textviewCountQ"

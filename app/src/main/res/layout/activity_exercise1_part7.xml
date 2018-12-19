@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Exercises.Exercise1Part7">
+    <TextView
+        android:id="@+id/textviewCountQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="1/5"
+        android:textColor="#e91ab2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imagebuttonOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exitex" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Read and Answer"
+        android:textColor="#15ccc9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="364dp"
+        android:layout_height="258dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textviewQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1/3. What is suggested about the Oakview Cafe?"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+
+                <RadioButton
+                    android:id="@+id/radiobutton1A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="It open for dinner at 7 p.m"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton1B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="It advertises in a local newspaper"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton1C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="It is located in the city's business district"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton1D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="It is a small restaurant"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textviewQuestion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2/3.Who most likely is Ms.Tighe?"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+
+                <RadioButton
+                    android:id="@+id/radiobutton2A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A newspaper reporter"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton2B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A musician"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton2C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A cafe owner"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton2D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A chef"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textviewQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3/3.What does the notice encourage readers to do online?"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+
+                <RadioButton
+                    android:id="@+id/radiobutton3A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Purchase tickets for an event"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="View a full dinner menu"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton3C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Listen to samples of music"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton3D"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Read reviews of a performance"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/custom_start"
+        android:text="Kiểm Tra "
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/borderq"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textviewQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="                      The Oakview Café\n12 Torpoint Hill, Aylesbury, Buckinghamshire, HP21 7SR\n                             01632 399196\n                      www.oakviewcafe.co.uk\n
+The Oakview Café proudly presents Gordon Macaulay in a solo concert at 7 P.M. on 10 September. Mr. Macaulay is known for his poetic songs and fuid guitar playing. Lauren Tighe of The Aylesbury Record writes Gordon Macaulay has one of the most melodious voices I have ever heard. Don't miss this rare opportunity to hear him in the Intimate setting of the Oakview Café. Our award-winning chef, Lucas Brizard, will prepare a selection of unique dishes, but our regular menu items will also be available on the day of the show. Space is limited purchase your tickets now by phone or at the café during normal business hours.For more information about us and a ful listing of our dishes for the event,
+please visit our Web site."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

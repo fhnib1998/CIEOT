@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Meojs.MeojPart6">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="3dp"
+        android:text="PART VI"
+        android:textColor="#f11d83"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/imagebuttonOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="360dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@null"
+        app:srcCompat="@drawable/exitex" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagebuttonOut"
+        android:layout_alignParentStart="true"
+        android:text="Part 6 gồm 12 câu trắc nghiệm, chia thành 4 đoạn văn; mỗi đoạn gồm 3 câu hỏi. Loại câu hỏi trong phần này cũng tương tự như part 5, là hỏi về từ loại, ngữ pháp cũng như từ vựng. Mỗi câu sẽ có một chỗ trống và nhiệm vụ của bạn là tìm từ thích hợp nhất đề điền vào chỗ trống. Đối với người luyện thi TOEIC, part 6 có thể được xem là phần mở rộng của part 5.
+        \n\nNội dung phần này thường là về một văn bản ngắn, quảng cáo, thông báo, ghi chú, email, thư từ, fax, hướng dẫn và nhiều loại văn bản phổ biến trong đời sống hàng ngày.
+        \n\nChính vì dạng câu hỏi của part 6 cũng tương tự như phần 5 nên bạn vẫn áp dụng được những mẹo thi TOEIC của part 5 được."
+        android:textColor="#000"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

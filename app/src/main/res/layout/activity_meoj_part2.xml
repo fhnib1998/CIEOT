@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".Meojs.MeojPart2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="3dp"
+        android:text="PART II"
+        android:textColor="#f11d83"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/imagebuttonOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="360dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@null"
+        app:srcCompat="@drawable/exitex" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Mẹo #1: Lắng nghe thật kĩ từ hỏi trong bài nghe: when (khi nào), who (ai), where (nơi chốn) hay how (cách thức)"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Khi nghe một câu hỏi, bạn phải nắm bắt nhanh từ để hỏi trong câu là gì?
+                 \n\tWhen: hỏi về thời gian\n\tWho: hỏi về người\n\tWhere: hỏi về nơi chốn\n\tHow: hỏi về cách thức.
+                 \n⇒ Điều này sẽ giúp bạn có thể đoán được câu trả lời tốt hơn trong tình huống bạn không nghe được toàn bộ câu hỏi.
+                 \nLưu ý: Bạn sẽ phải nhớ cả câu hỏi lẫn 3 lựa chọn nên có trí nhớ ngắn hạn tốt là 1 lợi thế. Vì vậy, sau khi đã nắm bắt được ý của câu hỏi hỏi về việc gì, khi các lựa chọn được đọc lên, nếu lựa chọn nào thấy sai thì quên ngay và tập trung nghe lựa chọn tiếp theo. Không nên mải mê lo nhớ đáp án cũ mà quên việc nghe đáp án mới bạn nhé.
+                 \n\nVà một điều nữa hay gặp trong phần nghe thứ hai này. Đó chính là câu trả lời đúng có thể sẽ rất ngắn chứ không nhất thiết phải là một câu đầy đủ Subject - Verb - Object.
+                 \nVí dụ: Bạn sẽ nghe: Where should we put this advertisement?
+                 \n→ Chúng ta nên đăng quảng cáo này ở đâu?
+                 \nA. They're having a sale. → Họ đang bán đấy.
+                 \nB. In the local paper. → Ở báo địa phương
+                 \nC. He's wearing a suit and tie. → Anh ấy đang mặc bộ com-lê và cà vạt.
+                 \nSau đó, nếu bạn nghe được rõ từ hỏi trong câu này là Where, thì việc lựa chọn giữa 3 đáp án sẽ dễ dàng hơn. Where là hỏi về địa điểm, khi bạn nghe câu A hoàn toàn không nhắc gì về địa điểm, B nói về địa điểm thì khả năng đáp án là B rất cao. Chỉ cần bạn nghe thêm C xem xem có nói về địa điểm không. Và C lại nói về cách ăn mặc → chọn B. Và một điểm nữa, rõ ràng ở câu A và C đáp án có đầy đủ chủ ngữ vị ngữ nhưng nội dung lại không liên quan đến câu hỏi nên chúng ta vẫn không chọn 2 đáp án này.">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Mẹo #2: Tránh bẫy về từ đồng âm - khác nghĩa"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Từ đồng âm khác nghĩa là một bẫy khá hay gặp trong phần 2 của đề thi TOEIC.
+                 \nVí dụ: When will the board meeting begin? → Buổi họp hội đồng khi nào bắt đầu?
+                  \nA. After the president arrives. → Sau khi chủ tịch đến.
+                  \nB. In the conference room. → Ở phòng hội nghị.
+                  \nC. We should board the plane now. → Chúng ta nên lên máy bay bây giờ thôi.
+                 \nỞ câu trên từ BOARD trong câu hỏi là một danh từ thể hiện nghĩa hội đồng quản trị, còn từ BOARD trong đáp án C lại là động từ mang nghĩa lên máy bay. Nếu chúng ta chỉ nghe loáng thoáng thấy câu hỏi có từ BOARD và nghe câu trả lời C cũng loáng thoáng có từ BOARD rồi sau đó kết luận C là đáp án đúng thì chúng ta đã được một cú lừa ngoạn mục rồi nhé.">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Mẹo #3: Tránh bẫy về các từ phát âm gần giống nhau như nghĩa hoàn toàn khác nhau."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Hasn't the company hired more workers yet? → Công ty đã thuê thêm nhân viên chưa?
+                \nA. Yes, I'm leaving for work now. → Vâng, tôi đang đi làm.
+                \nB. Yes, it will get higher. → Vâng, nó sẽ cao hơn.
+                \nC. They're still interviewing people. → Họ đang còn phỏng vấn.
+                \n\nNếu nghe họ đọc nhanh thì HIRED và HIGHER sẽ rất dễ bị nhầm lẫn là 1 từ với nhau. Và trong trường hợp chúng ta nghe không rõ được nội dung, khả năng chúng ta sẽ bị mắc bẫy về từ khác âm khác nghĩa này rất cao.">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#16ef70"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Mẹo #4: Chọn câu trả lời có nội dung là TÔI KHÔNG BIẾT thì 99% là đúng"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Khi nghe thấy đáp án TÔI KHÔNG BIẾT thì bạn có thể chọn ngay vì 99% trường hợp câu hỏi nào có lựa chọn này thì lựa chọn này là đáp án đúng!
+                \nCIEOT cung cấp bạn một số câu TÔI KHÔNG BIẾT phổ biến để bạn học nhé:
+                \n- I don't know. \n- I'm not sure. \n- I have no idea. \n- I haven't decided yet. \n- It hasn't been decided yet. \n- I was not informed about it.">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
