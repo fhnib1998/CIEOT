@@ -16,7 +16,7 @@
         android:layout_marginStart="163dp"
         android:layout_marginTop="3dp"
         android:text="PART IV"
-        android:textColor="#f11d83"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="25dp"
         android:textStyle="bold" />
     <ImageButton
@@ -49,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:textColor="#16ef70"
+                android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:text="Mẹo #1: Đọc trước câu hỏi và Suy luận nội dung của bài nói từ câu hỏi\n"
@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:textColor="#16ef70"
+                android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:text="Mẹo #2: Nghe và tô đáp án ngay lập tức\n"
@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:textColor="#16ef70"
+                android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:text="Mẹo #3: Dựa vào câu hỏi để bắt từ\n"/>

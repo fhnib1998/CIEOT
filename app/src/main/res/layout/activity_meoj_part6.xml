@@ -14,7 +14,7 @@
         android:layout_marginStart="163dp"
         android:layout_marginTop="3dp"
         android:text="PART VI"
-        android:textColor="#f11d83"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="25dp"
         android:textStyle="bold" />
     <ImageButton

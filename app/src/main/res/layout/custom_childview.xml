@@ -15,7 +15,6 @@
         android:layout_marginTop="0dp"
         android:background="#ffffff"
         android:fontFamily="serif"
-        android:gravity="center"
         android:padding="15dp"
         android:text="Title"
         android:textColor="#f000"

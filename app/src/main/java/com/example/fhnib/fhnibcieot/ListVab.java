@@ -76,91 +76,91 @@ public class ListVab extends AppCompatActivity {
         listdataPart.add("Event");
         //Công Ty
         List<String> company = new ArrayList<>();
-        company.add("CEO: Giám đốc điều hành");
-        company.add("Director(n): Giám đốc");
-        company.add("Manager(n): Quản lí");
-        company.add("Associate(n): Đồng nghiệp");
-        company.add("Department(n): Phòng ban");
-        company.add("Accounting department(n): Phòng kế toán");
-        company.add("Finance department(n): Phòng tài chính");
-        company.add("Personnel department(n): phòng nhân sự");
-        company.add("Sales department(n): Phòng kinh doanh");
-        company.add("Associate(n): Đồng nghiệp");
+        company.add("\tCEO: Giám đốc điều hành");
+        company.add("\tDirector(n): Giám đốc");
+        company.add("\tManager(n): Quản lí");
+        company.add("\tAssociate(n): Đồng nghiệp");
+        company.add("\tDepartment(n): Phòng ban");
+        company.add("\tAccounting department(n): Phòng kế toán");
+        company.add("\tFinance department(n): Phòng tài chính");
+        company.add("\tPersonnel department(n): phòng nhân sự");
+        company.add("\tSales department(n): Phòng kinh doanh");
+        company.add("\tAssociate(n): Đồng nghiệp");
         //Marketting
         List<String> marketing = new ArrayList<>();
-        marketing.add("Attract(v): Thu hút\nAttraction(n);Attractive(adj)");
-        marketing.add("Compete(v): Cạnh tranh");
-        marketing.add("Consume(v): Tiêu thụ\nConsumer(n): Người tiêu dùng");
-        marketing.add("Convince(v): Thuyết phục");
-        marketing.add("Fad(n): Mốt");
-        marketing.add("Market(n): Tình hình thị trường");
-        marketing.add("Satisfy(n): Đáp ứng");
+        marketing.add("\tAttract(v): Thu hút\n\tAttraction(n);Attractive(adj)");
+        marketing.add("\tCompete(v): Cạnh tranh");
+        marketing.add("\tConsume(v): Tiêu thụ\n\tConsumer(n): Người tiêu dùng");
+        marketing.add("\tConvince(v): Thuyết phục");
+        marketing.add("\tFad(n): Mốt");
+        marketing.add("\tMarket(n): Tình hình thị trường");
+        marketing.add("\tSatisfy(n): Đáp ứng");
 
         //Conferences
         List<String> conferences = new ArrayList<>();
-        conferences.add("Conferrene(n): Hội nghị");
-        conferences.add("Accomodate(n): Điều tiết\nAccomodation(n);Accomodating(adj)");
-        conferences.add("Arrangement(n): Sự sắp xếp");
-        conferences.add("Hold(v): Tổ chức");
-        conferences.add("Location(n): Vị trí");
-        conferences.add("Register(v): Đăng kí\nRegister(n);Registion(n)");
+        conferences.add("\tConferrene(n): Hội nghị");
+        conferences.add("\tAccomodate(n): Điều tiết\n\tAccomodation(n);Accomodating(adj)");
+        conferences.add("\tArrangement(n): Sự sắp xếp");
+        conferences.add("\tHold(v): Tổ chức");
+        conferences.add("\tLocation(n): Vị trí");
+        conferences.add("\tRegister(v): Đăng kí\nRegister(n);Registion(n)");
         //Interview
         List<String> interview = new ArrayList<>();
-        interview.add("Interview(n): Phỏng vấn");
-        interview.add("Ability(n): Khả năng");
-        interview.add("Apply(v): Nộp");
-        interview.add("Background(n): Kinh nghiệm");
-        interview.add("Expert(n)(v): Thành thạo");
-        interview.add("Present(v): Trình bày\nPresention(n)");
-        interview.add("Hire(n): Tuyển dụng");
+        interview.add("\tInterview(n): Phỏng vấn");
+        interview.add("\tAbility(n): Khả năng");
+        interview.add("\tApply(v): Nộp");
+        interview.add("\tBackground(n): Kinh nghiệm");
+        interview.add("\tExpert(n)(v): Thành thạo");
+        interview.add("\tPresent(v): Trình bày\n\tPresention(n)");
+        interview.add("\tHire(n): Tuyển dụng");
 
         //Training
         List<String> training = new ArrayList<>();
-        training.add("Training(n): Đào tạo\nTrainer(n);Trainee(n)");
-        training.add("Conduct(v): Hướng dẫn");
-        training.add("Mentor(n): Người cố vấn");
-        training.add("On track(adj): Theo dõi");
-        training.add("Set up(v): Thiết lập");
-        training.add("Update(v): Cập nhật");
+        training.add("\tTraining(n): Đào tạo\n\tTrainer(n);Trainee(n)");
+        training.add("\tConduct(v): Hướng dẫn");
+        training.add("\tMentor(n): Người cố vấn");
+        training.add("\tOn track(adj): Theo dõi");
+        training.add("\tSet up(v): Thiết lập");
+        training.add("\tUpdate(v): Cập nhật");
         //Shopping
         List<String> shopping = new ArrayList<>();
-        shopping.add("Bargain(v): Mặc cả");
-        shopping.add("Behavior(n): Cách ứng xử");
-        shopping.add("Checkout(v): Thanh toán");
-        shopping.add("Item(n): Mặt hàng");
-        shopping.add("Trend(n): Xu hướng");
+        shopping.add("\tBargain(v): Mặc cả");
+        shopping.add("\tBehavior(n): Cách ứng xử");
+        shopping.add("\tCheckout(v): Thanh toán");
+        shopping.add("\tItem(n): Mặt hàng");
+        shopping.add("\tTrend(n): Xu hướng");
 
         //Invoices
         List<String> invoices = new ArrayList<>();
-        invoices.add("Invoice(n): Hóa đơn");
-        invoices.add("Charge(n)(v): Thu phí");
-        invoices.add("Compile(v): Thu thập");
-        invoices.add("Customer(n): Khách hàng");
-        invoices.add("Discount(n): Giảm giá");
-        invoices.add("Efficient(adj): Có hiệu lực");
+        invoices.add("\tInvoice(n): Hóa đơn");
+        invoices.add("\tCharge(n)(v): Thu phí");
+        invoices.add("\tCompile(v): Thu thập");
+        invoices.add("\tCustomer(n): Khách hàng");
+        invoices.add("\tDiscount(n): Giảm giá");
+        invoices.add("\tEfficient(adj): Có hiệu lực");
         //Banking
         List<String> banking = new ArrayList<>();
-        banking.add("Accept(v): Chấp thuận");
-        banking.add("Borrow(v): Vay mượn");
-        banking.add("Devidend(n): Tiền lãi cổ phần");
-        banking.add("Restriction(n): Giới hạn");
-        banking.add("Deduct(v): Khấu trừ");
-        banking.add("Take out(v): Rút tiền");
-        banking.add("Transaction(n): Giao dịch");
+        banking.add("\tAccept(v): Chấp thuận");
+        banking.add("\tBorrow(v): Vay mượn");
+        banking.add("\tDevidend(n): Tiền lãi cổ phần");
+        banking.add("\tRestriction(n): Giới hạn");
+        banking.add("\tDeduct(v): Khấu trừ");
+        banking.add("\tTake out(v): Rút tiền");
+        banking.add("\tTransaction(n): Giao dịch");
         //Accounting
         List<String> accounting = new ArrayList<>();
-        accounting.add("Accountant(n): Kế Toán");
-        accounting.add("Asset(n): Tài sản");
-        accounting.add("Budget(n): Ngân sách");
-        accounting.add("Client(n): Khách hàng");
-        accounting.add("Profit(n)(v): Lợi nhuận,thu hồi");
+        accounting.add("\tAccountant(n): Kế Toán");
+        accounting.add("\tAsset(n): Tài sản");
+        accounting.add("\tBudget(n): Ngân sách");
+        accounting.add("\tClient(n): Khách hàng");
+        accounting.add("\tProfit(n)(v): Lợi nhuận,thu hồi");
         //Events
         List<String> events = new ArrayList<>();
-        events.add("Events(n): Sự kiện");
-        events.add("Assist(v): trợ giúp\nAssistant(n): Sự giúp đỡ");
-        events.add("Devension(n): Kích thước");
-        events.add("Exact(adj): Chính xác");
-        events.add("Site(n): Vị trí");
+        events.add("\tEvents(n): Sự kiện");
+        events.add("\tAssist(v): trợ giúp\n\tAssistant(n): Sự giúp đỡ");
+        events.add("\tDevension(n): Kích thước");
+        events.add("\tExact(adj): Chính xác");
+        events.add("\tSite(n): Vị trí");
         //
         listdataVab.put( listdataPart.get(0),company);
         listdataVab.put( listdataPart.get(1),marketing);

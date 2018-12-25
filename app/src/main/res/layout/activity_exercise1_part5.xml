@@ -118,7 +118,7 @@
         android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="1/20"
-        android:textColor="#e43185"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:textStyle="bold" />
 

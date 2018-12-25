@@ -16,7 +16,7 @@
         android:layout_marginStart="163dp"
         android:layout_marginTop="3dp"
         android:text="PART I"
-        android:textColor="#f11d83"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="25dp"
         android:textStyle="bold" />
     <ImageButton
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="Mẹo #1: Trước khi làm bài, hãy nhìn tổng quát cả hình và phán đoán những danh từ và động từ có liên quan,rồi thử đoán trước ngữ cảnh có thể xảy ra trong hình"
-                android:textColor="#16ef70"
+                android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="Mẹo #2: Chú ý nghe động từ hoặc danh từ của từng phương án. Câu sai thường do sai động từ hoặc danh từ"
-                android:textColor="#16ef70"
+                android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 

@@ -7,14 +7,14 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:background="#ff007f"
+        android:background="#558B2F"
         android:id="@+id/textviewPart"
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:text="Title"
+        android:paddingLeft="25dp"
         android:textColor="#ffffff"
         android:textSize="25dp" />
 

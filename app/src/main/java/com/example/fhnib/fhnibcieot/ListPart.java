@@ -82,39 +82,39 @@ public class ListPart extends AppCompatActivity {
 
         //list Part 1
         List<String> exPart1 = new ArrayList<>();
-        exPart1.add("Example");
-        exPart1.add("Tranh tả người");
-        exPart1.add("Tranh tả vật");
+        exPart1.add("\t\t\tExample");
+        exPart1.add("\t\t\tTranh tả người");
+        exPart1.add("\t\t\tTranh tả vật");
         //list Part 2
         List<String> exPart2 = new ArrayList<>();
-        exPart2.add("Example");
-        exPart2.add("Statement");
-        exPart2.add("WH Question");
-        exPart2.add("How");
+        exPart2.add("\t\t\tExample");
+        exPart2.add("\t\t\tStatement");
+        exPart2.add("\t\t\tWH Question");
+        exPart2.add("\t\t\tHow");
         //list Part 3
         List<String> exPart3 = new ArrayList<>();
-        exPart3.add("Example");
-        exPart3.add("Chủ đề 1");
-        exPart3.add("Chủ đề n");
+        exPart3.add("\t\t\tExample");
+        exPart3.add("\t\t\tChủ đề 1");
+        exPart3.add("\t\t\tChủ đề n");
         //list Part 4
         List<String> exPart4 = new ArrayList<>();
-        exPart4.add("Example");
-        exPart4.add("Chủ đề n");
+        exPart4.add("\t\t\tExample");
+        exPart4.add("\t\t\tChủ đề n");
         //list Part 5
         List<String> exPart5 = new ArrayList<>();
-        exPart5.add("Exemple");
-        exPart5.add("Unit 1");
-        exPart5.add("Unit 2");
-        exPart5.add("Unit n");
+        exPart5.add("\t\t\tExemple");
+        exPart5.add("\t\t\tUnit 1");
+        exPart5.add("\t\t\tUnit 2");
+        exPart5.add("\t\t\tUnit n");
         //list Part 6
         List<String> exPart6 = new ArrayList<>();
-        exPart6.add("Example");
-        exPart6.add("Unit n");
+        exPart6.add("\t\t\tExample");
+        exPart6.add("\t\t\tUnit n");
         //list Part 7
         List<String> exPart7 = new ArrayList<>();
-        exPart7.add("Example");
-        exPart7.add("Unit 1");
-        exPart7.add("Unit n");
+        exPart7.add("\t\t\tExample");
+        exPart7.add("\t\t\tUnit 1");
+        exPart7.add("\t\t\tUnit n");
         //
         listdataExercise.put( listdataPart.get(0),exPart1);
         listdataExercise.put( listdataPart.get(1),exPart2);

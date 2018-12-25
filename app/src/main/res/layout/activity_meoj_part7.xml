@@ -16,7 +16,7 @@
         android:layout_marginStart="163dp"
         android:layout_marginTop="3dp"
         android:text="PART VII"
-        android:textColor="#f11d83"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="25dp"
         android:textStyle="bold" />
     <ImageButton
@@ -49,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:textColor="#16ef70"
+                android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:text="Mẹo #1: Xác định thứ tự làm bài hợp lý\n"
@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:textColor="#16ef70"
+                android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:text="Mẹo #2: Đọc hiểu nhanh câu hỏi và rèn kĩ năng đọc lướt (Skim and Scan)\n"
@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:textColor="#16ef70"
+                android:textColor="@color/colorPrimary"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:text="Mẹo #3: Dùng ngữ cảnh để trả lời những câu hỏi về từ vựng hoặc về ý chính của bài"/>

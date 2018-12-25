@@ -15,7 +15,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:text="CIEOT"
-        android:textColor="#e90975"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="75dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

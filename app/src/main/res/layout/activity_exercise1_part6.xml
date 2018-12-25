@@ -129,7 +129,7 @@ presentation on the new system.\nThis should facilitate decision-making during o
         android:layout_marginTop="12dp"
         android:gravity="center"
         android:text="1/12"
-        android:textColor="#e91ab2"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
